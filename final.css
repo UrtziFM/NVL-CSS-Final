@@ -1,0 +1,111 @@
+html {
+    background-size: 8px 8px;
+    box-sizing: border-box;
+    background-color: darkgreen; 
+}
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body {
+    background-color: skyblue;
+    color: #111111;
+    font-family: 'Lobster', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    min-width: 256px;
+    max-height: 2400px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+header {
+    min-width: 200px;
+}
+header p {
+    float: left;
+    font-size: 32px;
+    font-weight: bold;
+    min-width: 300px;
+}
+header h1 {
+    float: inherit;
+    text-align: center;
+    min-width: inherit;
+}
+header h2 {
+    font-size: 16px;
+    text-align: center;
+    min-width: inherit;
+}
+body, aside, section, footer, img {
+    border: 3px solid Gray;
+    border-radius: 16px;
+}
+a {
+    text-decoration: underline;
+    color: black;
+}
+nav {
+}
+nav ol{
+    list-style-type: none;
+    background-color: deepskyblue;
+    border: 2px solid #111111;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 32px;
+    margin: 16px;
+    min-width: 680px;
+}
+nav ol li.left{
+    float: left;
+}
+nav ol li.right{
+    float: right;
+}
+
+article {
+    margin-bottom: 24px;
+    min-height: 620px;
+    min-width: 680px;
+    padding: inherit;
+    
+}
+section.left {
+    float: left;
+    max-width: 240px;
+    min-width: 240px;
+    background-color: #88BB75;
+    margin: 4px;
+    padding: 18px;
+}
+aside{
+    text-align: center;
+}
+aside.left {
+    float: left;
+    max-width:  240px;
+    min-width: 240px;
+    background-color: #88BB75;
+    margin: 4px;
+    padding: 24px;
+}
+aside.right {
+    float: right;
+    text-align: center;
+    max-width: 90px;
+    min-width: 90px;
+    background-color: #88BB75;
+    margin: 2px;
+    padding: 24px;
+}
+p.AVISO {
+    background-color: #88BB75;
+    margin: 2px;
+    padding: 8px;
+    border-radius: 16px;
+    border: 0px solid Gray;
+    text-align: center;
+}
+
